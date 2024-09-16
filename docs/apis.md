@@ -1,20 +1,16 @@
 # API Documentation
 
-## OrderApi Controller
-
-* **Description:**  order api. pagination qo'shilmagan, endi qo'shiladi  faqat admin ola oladi holos
+## Orde Controller
 
 `getOrders()`
 
-* **Description:** 
+* **Description:**  order api. pagination qo'shilmagan, endi qo'shiladi  faqat admin ola oladi holos
 
 `addOrder(FILE json)`
 
-* **Description:**  Get orders by order status[new, canceled, delivered] and payment status[paid, not_paid]
-
 `getOrderbyOrdersStatusAndPaymentStatus(FILE json)`
 
-* **Description:** 
+* **Description:**  Get orders by order status[new, canceled, delivered] and payment status[paid, not_paid]
 
 `cancelOrder(FILE json)`
 
